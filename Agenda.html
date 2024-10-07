@@ -1,0 +1,42 @@
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agenda de Contactos</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Agenda de Contactos</h1>
+    
+            <div class="contact-list">
+                <h2>Contactos Guardados</h2>
+                <input type="text" id="search" placeholder="Buscar contacto..." onkeyup="filterContacts()">
+                <ul id="contacts">
+                    
+                </ul>
+            </div>
+    
+            <form id="contact-form">
+                <h2>Agregar Contacto</h2>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+    
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono" required>
+    
+                <button type="submit">Guardar Contacto</button>
+            </form>
+        </div>
+    
+     
+    
+    <script src="Angenda.js"></script>
+
+</body>
+</html>
